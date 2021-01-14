@@ -7,9 +7,9 @@ public class Utility {
 //    public int hoursPassed;
 //    public int minutesPassed;
 
-    public void convertHours(int hours, int mins, int hoursPassed) {
+    public void convertHours(int hours, int minutes, int hoursPassed) {
         int time = (hours + hoursPassed) % 24;
-        System.out.println(time);
+        System.out.println(time + ":" + minutes + minutes);
     }
 
     public void convertHours2(int hours, int minutes, int hoursPassed) {
@@ -17,7 +17,7 @@ public class Utility {
         if (time < 0) {
             time = 24 + time;
         }
-        System.out.println(time);
+        System.out.println(time + ":" + minutes + minutes);
     }
 
     public void convertMinutes(int hours, int minutes, int minutesPassed) {
