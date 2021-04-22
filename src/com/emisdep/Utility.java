@@ -21,8 +21,8 @@ public class Utility {
     }
 
     public void convertMinutes(int hours, int minutes, int minutesPassed) {
-        int time = (hours + minutes + minutesPassed / 60);
-        int timeMinutes = (minutesPassed % 60);
+        int time = (hours +  minutesPassed / 60);
+        int timeMinutes = minutes + (minutesPassed % 60);
         System.out.println(time + ":" + timeMinutes);
     }
 

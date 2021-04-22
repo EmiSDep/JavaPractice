@@ -7,5 +7,6 @@ public class Main {
         utility.convertHours(8, 0, 5);
         utility.convertHours2(21, 0, -5);
         utility.convertMinutes(21, 00, 147);
+        utility.convertMinutes(21, 50, 147);
     }
 }
